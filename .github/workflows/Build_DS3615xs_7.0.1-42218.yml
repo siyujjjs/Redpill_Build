@@ -53,7 +53,8 @@ jobs:
           ./ext-manager.sh add 'https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/rpext-index.json'
           ./ext-manager.sh add 'https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json'
           ./ext-manager.sh add 'https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json'
-          
+          ./ext-manager.sh add 'https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/rpext-index.json'       
+                    
       - name: 编译引导
         run: |
           cd /home/runner/redpill-load
