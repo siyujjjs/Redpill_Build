@@ -4,11 +4,11 @@
         "vid": "0x46f4",
         "sn": "1330LWN016276",
         "mac1": "001132673FB1",
-	"netif_num": 7
+	"netif_num": 1
     },
     "synoinfo": {
 	"internalportcfg": "0xffff",
-	"maxlanport": "7"
+	"maxlanport": "1"
     },
     "ramdisk_copy": {},
     "extensions": []
